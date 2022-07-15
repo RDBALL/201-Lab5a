@@ -105,7 +105,7 @@ Test this function by hand in the console to get it working, and when you think 
 function multiplyArray(multArr) { //eslint-disable-line
   let firstMult = multiply(multArr[0], multArr[1])[0];
   let totalMult = multiply(firstMult, multArr[2])[0];
-  let myString = `The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${totalMult}.`;
+  let myString = `The numbers ${testArray} have a product of ${totalMult}.`;
   return [totalMult, myString];
 }
 
